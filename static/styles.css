@@ -1,1 +1,97 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+#app {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.dashboard-section {
+  margin-bottom: 5px; /* Adjust the margin-bottom value */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+h2 {
+  color: #3498db;
+}
+
+.status-indicator {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.status-healthy {
+  color: #2ecc71;
+}
+.status-container {
+        display: flex;
+        justify-content: space-around;
+}
+.healthy-pulleys, .faulty-pulleys {
+        flex: 1;
+        margin-right: 20px;
+}
+.status-faulty {
+  color: #e74c3c;
+}
+
+.status-warning {
+  color: #f39c12;
+}
+
+button {
+  padding: 12px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Additional styles for charts or visualizations */
+.chart-container {
+  height: 300px;
+  margin-top: 20px;
+}
+
+/* Additional styles for maintenance planning */
+.maintenance-item {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.maintenance-item:hover {
+  background-color: #f9f9f9;
+}
 
